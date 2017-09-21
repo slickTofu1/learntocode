@@ -1,15 +1,18 @@
 // https://repl.it/LYvQ/14
 
+
 class Counter
 {
   private int numClicks;
   private int money;
-
+  // this is the constructor that gets called when
+// you  craete an instance with an initial value
   public Counter(int initial){
     numClicks = initial;
     setMoney();
   }
-
+  // this is the contructtore that gets called when the caller passes nothing
+  // when creating an instqance
   public Counter(){
     numClicks = 0;
   }
